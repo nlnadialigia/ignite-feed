@@ -1,5 +1,5 @@
-import {Post} from "./Post"
-import "./styles.css"
+import { Post } from './Post';
+import './styles.css';
 
 export function App() {
   return (
@@ -13,5 +13,5 @@ export function App() {
         content="Nulla quis lorem ut libero malesuada feugiat."
       />
     </div>
-  )
+  );
 }
