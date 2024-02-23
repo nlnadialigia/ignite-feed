@@ -1,7 +1,7 @@
 import styles from "./App.module.css"
-import { Header } from "./components/Header/Header"
-import { Post } from "./components/Post/Post"
-import { Sidebar } from "./components/Sidebar/Sidebar"
+import { Header } from "./components/Header"
+import { Post } from "./components/Post"
+import { Sidebar } from "./components/Sidebar"
 import "./global.css"
 
 export function App() {
