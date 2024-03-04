@@ -15,7 +15,6 @@ const posts = [
     content: [
       {type: "paragraph", content: "Fala galeraa 👋"},
       {type: "paragraph", content: "Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
-      {type: "paragraph", content: "Fala galeraa 👋"},
       {type: "link", content: "jane.design/doctorcare"}
     ],
     publishedAt: new Date("2024-02-28 20:00:00")
@@ -30,7 +29,6 @@ const posts = [
     content: [
       {type: "paragraph", content: "Fala galeraa 👋"},
       {type: "paragraph", content: "Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀"},
-      {type: "paragraph", content: "Fala galeraa 👋"},
       {type: "link", content: "jane.design/doctorcare"}
     ],
     publishedAt: new Date("2024-02-28 17:00:00")

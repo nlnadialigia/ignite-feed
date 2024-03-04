@@ -5,7 +5,7 @@ import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
-export function Post({id, author, content, publishedAt}) {
+export function Post({author, content, publishedAt}) {
   const [comments, setComments] = useState([])
   const [newCommentText, setNewCommentText] = useState("")
 
@@ -41,9 +41,9 @@ export function Post({id, author, content, publishedAt}) {
       <div className={styles.content}>
         {content.map(line => {
           if (line.type === "paragraph") {
-            return <p key={id}>{line.content}</p>
+            return <p key={line.content}>{line.content}</p>
           } else if (line.type === "link") {
-            return <p key={id}><a href="http://">{line.content}</a></p>
+            return <p key={line.content}><a href="http://">{line.content}</a></p>
           }
         })}
       </div>
